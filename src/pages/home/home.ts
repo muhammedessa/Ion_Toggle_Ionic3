@@ -7,8 +7,22 @@ import { NavController } from 'ionic-angular';
 })
 export class HomePage {
 
-  constructor(public navCtrl: NavController) {
+
+  dataObject : any ={
+
+    "apple" : true,
+    "orange" : true ,
+    "apricot" : true ,
+    "broccoli" : false  
 
   }
+
+  constructor(public navCtrl: NavController) {
+ 
+  }
+
+
+
+
 
 }

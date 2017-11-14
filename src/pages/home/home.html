@@ -5,13 +5,65 @@
 </ion-header>
 
 <ion-content padding>
-  <h2>Welcome to Ionic!</h2>
-  <p>
-    This starter project comes with simple tabs-based layout for apps
-    that are going to primarily use a Tabbed UI.
-  </p>
-  <p>
-    Take a look at the <code>src/pages/</code> directory to add or change tabs,
-    update any existing page or create new pages.
-  </p>
+
+  
+
+  <ion-card>
+    <ion-card-header>
+        Fruit
+    </ion-card-header>
+    <ion-card-content>
+
+        <div *ngIf="dataObject">
+            <ion-item>
+                <ion-label>apple</ion-label>
+                <ion-toggle [(ngModel)]="dataObject.apple"></ion-toggle>
+            </ion-item>
+            <ion-item>
+                <ion-label>Orange</ion-label>
+                <ion-toggle [(ngModel)]="dataObject.orange"></ion-toggle>
+            </ion-item>
+            <ion-item>
+                <ion-label>Apricot</ion-label>
+                <ion-toggle [(ngModel)]="dataObject.apricot"></ion-toggle>
+            </ion-item>
+            <ion-item>
+                <ion-label>Broccoli</ion-label>
+                <ion-toggle [(ngModel)]="dataObject.broccoli"></ion-toggle>
+            </ion-item>
+ 
+        </div>
+ 
+     </ion-card-content>
+  </ion-card>
+
+
+
+
+
+  <ion-card>
+      <ion-card-header>
+          Results
+      </ion-card-header>
+      <ion-card-content>
+  
+   
+          <ion-item>
+              <p>apple : {{dataObject.apple}}</p>
+          </ion-item>
+          <ion-item>
+              <p>orange : {{dataObject.orange}}</p>
+          </ion-item>
+          <ion-item>
+              <p>apricot : {{dataObject.apricot}}</p>
+          </ion-item>
+          <ion-item>
+              <p>apricot : {{dataObject.broccoli}}</p>
+          </ion-item>
+  
+       </ion-card-content>
+    </ion-card>
+  
+
+
 </ion-content>
