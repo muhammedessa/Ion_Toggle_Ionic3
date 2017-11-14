@@ -4,13 +4,13 @@ example how to use Ion toggle with ionic 3 angular 4
 
 
  
-![Screenshot](Ion_Toggle_Ionic3/1.png)
+![Screenshot](https://github.com/muhammedessa/Ion_Toggle_Ionic3/blob/master/1.png)
 
 
-![Screenshot](Ion_Toggle_Ionic3/2.png)
+![Screenshot](https://github.com/muhammedessa/Ion_Toggle_Ionic3/blob/master/2.png)
 
 
 
-![Screenshot](Ion_Toggle_Ionic3/3.png)
+![Screenshot](https://github.com/muhammedessa/Ion_Toggle_Ionic3/blob/master/3.png)
 
  
